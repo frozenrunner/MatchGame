@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.Card {
+  height: 150px;
+
+  .card-front {
+    height: 100%;
+  }
+  .card-back {
+    height: 100%;
+  }
+
+  .card-front, .card-back {
+    img {
+      height: 100%;
+    }
+  }
+
+  img {
+    pointer-events: none;
+  }
+
+  &.card-disabled {
+    pointer-events: none;
+  }
+}
