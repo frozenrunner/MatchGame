@@ -1,18 +1,28 @@
 import { useState } from 'react'
 import './Card.scss'
 import Table from './Table.jsx'
+import gluttony from './images/b2-gluttony.png'
+import ragman from './images/b2-rag_man.png'
+import squirt from './images/b2-squirt.png'
+import krampus from './images/fsp2-krampus.png'
+import momshand from './images/b2-moms_dead_hand.png'
+import steven from './images/g2-steven.png'
+import isaac from './images/b2-isaac.png'
+import azazel from './images/g2-azazel.png'
+import guppy from './images/fsp2-guppy.png'
+import bloat from './images/p-the_bloat.png'
 
 const cardImages = [
-  'src/images/b2-gluttony.png',
-  'src/images/b2-rag_man.png',
-  'src/images/b2-squirt.png',
-  'src/images/fsp2-krampus.png',
-  'src/images/b2-moms_dead_hand.png',
-  'src/images/g2-steven.png',
-  'src/images/b2-isaac.png',
-  'src/images/g2-azazel.png',
-  'src/images/fsp2-guppy.png',
-  'src/images/p-the_bloat.png'
+  gluttony,
+  ragman,
+  squirt,
+  krampus,
+  momshand,
+  steven,
+  isaac,
+  azazel,
+  guppy,
+  bloat
 ]
 
 class CardPrototype {
