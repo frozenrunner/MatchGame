@@ -27,3 +27,16 @@
     pointer-events: none;
   }
 }
+
+.card-table-background {
+  background-image: url("./images/card-table.jpg");
+  padding: 1rem;
+
+  .card-table-messages {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 50px;
+    justify-content: space-between;
+  }
+}
